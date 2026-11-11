@@ -1,5 +1,5 @@
 // Decrypts the locked game files on this phone. Nothing readable is stored on the server.
-const VER = '20261102110404';
+const VER = '20261111125648';
 const CACHE = 'chm-enc';   // kept across updates; each file is keyed by its own version
 let vers = null, versAt = 0;
 async function getVers(force) {
